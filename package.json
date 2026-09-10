@@ -1,0 +1,25 @@
+{
+  "name": "typescript_orai_feladat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagyKornel/Typescript_Orai_feladat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NagyKornel/Typescript_Orai_feladat/issues"
+  },
+  "homepage": "https://github.com/NagyKornel/Typescript_Orai_feladat#readme",
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
