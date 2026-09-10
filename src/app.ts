@@ -1,7 +1,7 @@
 import { isYoung } from "./helper/IsYoung";
-import { Emberek } from "./types/Emberek";
+import { Ember } from "./types/Emberek";
 
-const emberek: Array<Emberek> = [
+const emberek: Array<Ember> = [
   { id: 1, fname: "Nagy", lname: "Kornel", age: 18, sex: "male" },
   { id: 2, fname: "Gergely", lname: "Marcell", age: 18, sex: "male" },
   { id: 3, fname: "Abraham", lname: "Kristof", age: 16, sex: "male" },
@@ -9,7 +9,7 @@ const emberek: Array<Emberek> = [
   { id: 5, fname: "Adok", lname: "Daniel", age: 17, sex: "male" },
 ];
 
-const young: Array<Emberek> = emberek.filter((i: Emberek) => {
-  isYoung(i);
+const young: Array<Ember> = emberek.filter((i: Ember) => {
+  return isYoung(i);
 });
 console.log(young);

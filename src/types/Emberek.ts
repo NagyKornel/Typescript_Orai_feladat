@@ -1,4 +1,4 @@
-export type Emberek = {
+export type Ember = {
   id?: number;
   fname: string;
   lname: string;
